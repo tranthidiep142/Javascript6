@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #17a2b8;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.alert{
+    width: 300px;
+    height: 80px;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    color: #17a2b8;
+    border-radius: 10px;
+}
+
+.result{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: #fff solid 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.desc{
+    display: flex;
+}
+
+.card{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+
+.card p:first-child{
+    background-color: #78c0c9;
+    color: #fff;
+    width: 100%;
+}
+
+.card p:last-child {
+	text-transform: capitalize;
+    /* Chữ đầu tiên của mỗi thành phần là chữ hoa */
+}
+
+.hide{
+    display: none;
+}
